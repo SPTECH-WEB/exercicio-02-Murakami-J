@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 public class TransportadoraExterna implements FreteStrategy{
     @Override
     public double calcular(double peso){
-        return peso + (peso * 3.0);
+        return peso + (peso * 2.0);
     }
 
     @Override

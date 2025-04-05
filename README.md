@@ -47,4 +47,17 @@ Você foi contratado para desenvolver um módulo de **logística**. Esse módulo
 
 ---
 
+## ENDPOINTS
+
+Regra de valores: **peso + (peso * x)**
+
+Valor de x:
+- Econômica: 1.5
+  - http://localhost:8080/frete?tipo=Economica&peso=10
+- Terceirizada: 2.2
+  - http://localhost:8080/frete?tipo=Terceirizada&peso=10
+- Externa: 2.0
+  - http://localhost:8080/frete?tipo=Externa&peso=10
+- Expressa: 3.0
+  - http://localhost:8080/frete?tipo=Expressa&peso=10
 
